@@ -21,6 +21,7 @@ namespace Chryscore
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    //lol
                 });
     }
 }
